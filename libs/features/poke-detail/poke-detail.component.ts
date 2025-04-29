@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
+  standalone: true,
   selector: 'app-poke-detail',
   imports: [],
   templateUrl: './poke-detail.component.html',
